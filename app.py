@@ -11,6 +11,8 @@ from os import system
 from graphviz import Source
 from sklearn import tree
 
+st.image("https://www.isb.edu/content/dam/sites/isb/about-isb/ISB_transparent_logo.png", width=400)
+
 def draw_meshgrid():
     a = np.arange(start=X[:, 0].min() - 1, stop=X[:, 0].max() + 1, step=0.01)
     b = np.arange(start=X[:, 1].min() - 1, stop=X[:, 1].max() + 1, step=0.01)
